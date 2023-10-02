@@ -1,0 +1,30 @@
+.ItemCard {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 30px;
+  padding: 5px;
+  border: 2px solid #808080;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.ItemCard.selected {
+  background: #f9f9f9;
+  
+  border: 2px solid #6b6dd8;
+}
+.ItemCard:hover {
+  opacity: 0.7;
+}
+.ItemCard .checkbox {
+  cursor: pointer;
+}
+.ItemCard .times {
+  width: 15px;
+  height: 15px;
+  color: red;
+  cursor: pointer;
+}
+.ItemCard .title.completed {
+  text-decoration: line-through;
+}

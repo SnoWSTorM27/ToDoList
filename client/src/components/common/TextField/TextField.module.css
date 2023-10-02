@@ -1,0 +1,43 @@
+.TextField .InputGroup {
+  position: relative;
+}
+
+.TextField .InputIcon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.TextField .InputControl {
+  padding: 13px 12px 13px 16px;
+  border-radius: 8px;
+  background: var(--input-background, #EEE);
+  border: 1px solid var(--input-background, #EEE);
+  outline: none;
+  width: 100%;
+  caret-color: var(--error, #ED1C24);
+}
+
+.TextField .InputControl.error {
+  background: var(--error-12, rgba(241, 118, 103, 0.12));
+}
+
+.TextField .InputControl.error:focus {
+  border: 1px solid var(--error, #ED1C24);
+}
+
+.TextField .InputControl:focus {
+  border: 1px solid var(--black-16, rgba(15, 18, 27, 0.16));
+}
+
+.TextField svg path {
+  fill: var(--medium-gray, #808080);
+  color: var(--medium-gray, #808080);
+
+}
+
+.TextField svg circle {
+  stroke: var(--medium-gray, #808080);
+  fill: var(--medium-gray, #808080);
+}

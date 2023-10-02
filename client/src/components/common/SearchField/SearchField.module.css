@@ -1,0 +1,62 @@
+.SearchField {
+  display: flex;
+  padding: 4px 0 6px;
+  height: 44px;
+}
+
+.SearchField .BackButton {
+  color: var(--primary, #1E2536);
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  width: 20%;
+  margin-left: 16px;
+}
+
+.SearchField .InputGroup {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--16-black, rgba(15, 18, 27, 0.16));
+  background: var(--input-background, #EEE);
+  border-radius: 8px;
+}
+
+.SearchField input {
+  font-weight: 400;
+  height: 16px;
+  width: 100%;
+  outline: 0;
+  border: none;
+  color: var(--primary, #1E2536);
+  background: inherit;
+  background: var(--input-background, #EEE);
+}
+
+.SearchField input::placeholder {
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.SearchField .SearchIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.SearchField .CancelIcon {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
+.SearchField svg {
+  fill: #808080;
+}

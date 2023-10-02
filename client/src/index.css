@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --medium-gray: #808080;
+  --primary: #1E2536;
+  --backgrond: #f9f9f9;
+  --white: #fff;
+  --error: #ED1C24;
+  --error-12: rgba(241, 118, 103, 0.12);
+  --black: #0F121B;
+  --black-80: rgba(15, 18, 27, 0.8);
+  --black-8: rgba(15, 18, 27, 0.08);
+  --black-16: rgba(15, 18, 27, 0.16);
+  --input-background: #EEE;
+}
+input[type="text"] {
+  caret-color: var(--error, #ED1C24);
+}

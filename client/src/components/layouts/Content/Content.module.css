@@ -1,0 +1,29 @@
+.Content {
+  padding: 30px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: [start] 50% [two] auto [end] ;
+  grid-template-rows: [start] 30% [two] auto [end];
+  background: #808080;
+  column-gap: 5%;
+  row-gap: 7%;
+}
+
+.ListPanel {
+  grid-column: start / two;
+  grid-row: start / end;
+  padding: 20px;
+  background: #FFF;
+}
+.SearchPanel {
+  grid-column: two / end;
+  grid-row: start / two;
+  padding: 20px;
+  background: #FFF;
+}
+.ControlPanel {
+  grid-column: two / end;
+  grid-row: two / end;
+  padding: 20px;
+  background: #FFF;
+}
